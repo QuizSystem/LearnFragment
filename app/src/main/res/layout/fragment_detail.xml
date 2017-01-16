@@ -8,7 +8,15 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:text="Please click a button"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:id="@+id/txtInfo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sendcond Textview"
+        android:textSize="30sp"
+        android:id="@+id/txtInfo2" />
 </LinearLayout>
